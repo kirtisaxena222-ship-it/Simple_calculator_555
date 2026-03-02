@@ -15,16 +15,16 @@ int main() {
     cin >> num2;
 
     switch(op) {
-        case '+':
+        case 'addition':
             cout << "Result = " << num1 + num2;
             break;
-        case '-':
+        case 'subtraction':
             cout << "Result = " << num1 - num2;
             break;
-        case '*':
+        case 'multiplication':
             cout << "Result = " << num1 * num2;
             break;
-        case '/':
+        case 'division':
             if(num2 != 0)
                 cout << "Result = " << num1 / num2;
             else
